@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface PortfolioTableViewController : UITableViewController
+@property (nonatomic, weak) IBOutlet UILabel *mLabelStatus;
 @end
 

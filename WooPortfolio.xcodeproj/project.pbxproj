@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4B1972D520DC964800FC9E45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1972D420DC964800FC9E45 /* AppDelegate.m */; };
-		4B1972D820DC964800FC9E45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1972D720DC964800FC9E45 /* ViewController.m */; };
+		4B1972D820DC964800FC9E45 /* PortfolioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1972D720DC964800FC9E45 /* PortfolioTableViewController.m */; };
 		4B1972DB20DC964800FC9E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1972D920DC964800FC9E45 /* Main.storyboard */; };
 		4B1972DD20DC964C00FC9E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1972DC20DC964C00FC9E45 /* Assets.xcassets */; };
 		4B1972E020DC964C00FC9E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1972DE20DC964C00FC9E45 /* LaunchScreen.storyboard */; };
 		4B1972E320DC964C00FC9E45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1972E220DC964C00FC9E45 /* main.m */; };
 		4B1972ED20DC964C00FC9E45 /* WooPortfolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1972EC20DC964C00FC9E45 /* WooPortfolioTests.m */; };
 		4B1972F820DC964C00FC9E45 /* WooPortfolioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1972F720DC964C00FC9E45 /* WooPortfolioUITests.m */; };
+		4B19730820DCB41C00FC9E45 /* StockInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B19730620DCB41C00FC9E45 /* StockInfoTableViewCell.m */; };
+		4B19730920DCB41C00FC9E45 /* StockInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B19730720DCB41C00FC9E45 /* StockInfoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,8 @@
 		4B1972D020DC964800FC9E45 /* WooPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WooPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1972D320DC964800FC9E45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B1972D420DC964800FC9E45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B1972D620DC964800FC9E45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B1972D720DC964800FC9E45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B1972D620DC964800FC9E45 /* PortfolioTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioTableViewController.h; sourceTree = "<group>"; };
+		4B1972D720DC964800FC9E45 /* PortfolioTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioTableViewController.m; sourceTree = "<group>"; };
 		4B1972DA20DC964800FC9E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B1972DC20DC964C00FC9E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1972DF20DC964C00FC9E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,9 @@
 		4B1972F320DC964C00FC9E45 /* WooPortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooPortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1972F720DC964C00FC9E45 /* WooPortfolioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WooPortfolioUITests.m; sourceTree = "<group>"; };
 		4B1972F920DC964C00FC9E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B19730520DCB41C00FC9E45 /* StockInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockInfoTableViewCell.h; sourceTree = "<group>"; };
+		4B19730620DCB41C00FC9E45 /* StockInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockInfoTableViewCell.m; sourceTree = "<group>"; };
+		4B19730720DCB41C00FC9E45 /* StockInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockInfoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +108,11 @@
 			children = (
 				4B1972D320DC964800FC9E45 /* AppDelegate.h */,
 				4B1972D420DC964800FC9E45 /* AppDelegate.m */,
-				4B1972D620DC964800FC9E45 /* ViewController.h */,
-				4B1972D720DC964800FC9E45 /* ViewController.m */,
+				4B1972D620DC964800FC9E45 /* PortfolioTableViewController.h */,
+				4B1972D720DC964800FC9E45 /* PortfolioTableViewController.m */,
+				4B19730520DCB41C00FC9E45 /* StockInfoTableViewCell.h */,
+				4B19730620DCB41C00FC9E45 /* StockInfoTableViewCell.m */,
+				4B19730720DCB41C00FC9E45 /* StockInfoTableViewCell.xib */,
 				4B1972D920DC964800FC9E45 /* Main.storyboard */,
 				4B1972DC20DC964C00FC9E45 /* Assets.xcassets */,
 				4B1972DE20DC964C00FC9E45 /* LaunchScreen.storyboard */,
@@ -237,6 +245,7 @@
 			files = (
 				4B1972E020DC964C00FC9E45 /* LaunchScreen.storyboard in Resources */,
 				4B1972DD20DC964C00FC9E45 /* Assets.xcassets in Resources */,
+				4B19730920DCB41C00FC9E45 /* StockInfoTableViewCell.xib in Resources */,
 				4B1972DB20DC964800FC9E45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B1972D820DC964800FC9E45 /* ViewController.m in Sources */,
+				4B1972D820DC964800FC9E45 /* PortfolioTableViewController.m in Sources */,
 				4B1972E320DC964C00FC9E45 /* main.m in Sources */,
+				4B19730820DCB41C00FC9E45 /* StockInfoTableViewCell.m in Sources */,
 				4B1972D520DC964800FC9E45 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swoo.WooPortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swoo.stockportfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swoo.WooPortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swoo.stockportfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
